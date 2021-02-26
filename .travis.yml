@@ -1,0 +1,17 @@
+language: java
+
+jdk:
+  - openjdk11
+
+install:
+ - git remote add original https://github.com/PRBD2021/practica2.git
+ - git fetch original
+ - git checkout original/master .travis.yml
+ - git checkout original/master pom.xml
+ - git checkout original/master src/test/java/TestPr21.java
+ - git checkout original/master src/test/java/TestPr22.java
+ - git checkout original/master src/test/java/TestPr23.java
+ - git checkout original/master src/test/java/TestPr24.java
+
+script:
+ - mvn package

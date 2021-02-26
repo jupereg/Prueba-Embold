@@ -1,0 +1,7 @@
+Alberto|Garcia Romero|director|1850|Zaragoza
+Jose|Marti Ramos|comercial|1250|Zaragoza
+Adolfo|Dominguez Aspiroz|comercial|1250
+Jose Luis|Aznar Cabo|director|1800|Huesca
+Juan Luis|Lopez Zapatero|comercial||Huesca
+Jose Antonio|Antolin de Juan|director|1700|Zaragoza
+Maria Antonia|Alfonsin Garcia|comercial|1200|zaragoza
