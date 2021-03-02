@@ -4,10 +4,10 @@ public class Conversiones {
 	public static String intToString(int i) {
 		return String.valueOf(i);
 	}
-	public static int stringToInt(String s) {
+	public static int stringToInt(String s) throws NumberFormatException{
 		return Integer.parseInt(s);
 	}
-	public static Double stringToDouble(String s) {
+	public static Double stringToDouble(String s) throws NumberFormatException {
 		return Double.parseDouble(s);
 	}
 	public static char stringToChar(String s) {
